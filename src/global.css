@@ -52,3 +52,20 @@ body {
   margin: 0;
   line-height: inherit;
 }
+
+/* Config for buttons using Tailwind */
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-primary {
+  @apply bg-purple-600 text-white;
+}
+
+.btn-primary:hover {
+  @apply bg-purple-800 text-white;
+}
+
+button:disabled {
+  @apply bg-gray-800;
+}
